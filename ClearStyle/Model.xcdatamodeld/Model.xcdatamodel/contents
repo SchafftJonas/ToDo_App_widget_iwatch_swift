@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F1509" minimumToolsVersion="Xcode 7.0">
+    <entity name="Settings" syncable="YES">
+        <attribute name="autoCorrectEnabledSwitch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="dailyUpdateSwitch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="notificationsEnabledSwitch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="pickedColorB" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pickedColorG" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="pickedColorR" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="showAddButton" optional="YES" attributeType="Boolean" syncable="YES"/>
+    </entity>
+    <entity name="ToDo" syncable="YES">
+        <attribute name="created" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="isCompleted" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="row" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="section" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Settings" positionX="-54" positionY="-9" width="128" height="150"/>
+        <element name="ToDo" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
+</model>
